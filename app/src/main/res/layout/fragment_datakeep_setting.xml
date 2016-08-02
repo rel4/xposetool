@@ -1,0 +1,309 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.meiriq.xposehook.fragment.ClearDBTimeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="2(昨天)"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day2"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存3"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day3"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存4"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day4"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day5"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存6"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day6"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存7"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存8"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day8"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存9"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day9"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存10"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day10"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存11"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day11"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存12"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day12"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存13"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day13"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存14"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day14"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存15"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day15"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存16"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day16"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存17"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day17"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存18"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day18"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存19"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day19"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存20"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day20"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存21"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day21"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存22"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day22"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存23"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day23"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存24"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day24"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存25"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day25"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存26"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day26"/>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存27"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day27"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存28"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day28"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存29"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day29"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存30"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day30"/>
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="留存31"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_day31"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/done_background"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:gravity="end|right"
+        android:layout_gravity="center_vertical"
+        android:paddingBottom="8dp">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            style="@style/mdtp_ActionButton.Text"
+            android:text="@string/mdtp_cancel" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            style="@style/mdtp_ActionButton.Text"
+            android:text="@string/mdtp_ok" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

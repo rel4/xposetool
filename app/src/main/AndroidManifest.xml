@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meiriq.xposehook" >
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/bg"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UninstallActivity"
+            android:label="@string/title_activity_uninstall"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".UninstallWhiteActivity"
+            android:label="@string/title_activity_uninstall_white"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClearDataActivity"
+            android:label="@string/title_activity_clear_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FindApkActivity"
+            android:label="@string/title_activity_find_apk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FindApkWhiteActivity"
+            android:label="@string/title_activity_find_apk_white"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RecordAppFileActivity"
+            android:label="@string/title_activity_record_app_file"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RecordAppFileChooseActivity"
+            android:label="@string/title_activity_record_appchoose"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <!-- 模块描述 -->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="009" />
+        <!-- 最低版本号 -->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="30" />
+
+        <activity
+            android:name=".SetDataActivity"
+            android:label="@string/title_activity_set_data"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="ru.bartwell.exfilepicker.ExFilePickerActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ExFilePickerThemeDark" />
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" />
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="566a2b25e0f55ab43d004708" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID" />
+
+        <activity
+            android:name=".RecordFileWhiteActivity"
+            android:label="@string/title_activity_record_file_white"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LocalDataActivity"
+            android:label="@string/title_activity_local_data"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LocalDataDetailActivity"
+            android:label="@string/title_activity_local_data_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DataKeepStatusActivity"
+            android:label="@string/title_activity_datakeepstatus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WhiteListActivity"
+            android:label="白名单文件夹"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".service.DataMonitorService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ClearDBTimeActivity"
+            android:label="@string/title_activity_clear_dbtime"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.jadyn.mddemo">
+            <intent-filter>
+                <action android:name="android.intent.action.HELLO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

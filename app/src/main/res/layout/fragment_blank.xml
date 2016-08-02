@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.meiriq.xposehook.fragment.ClearDBTimeFragment">
+
+    <android.support.v7.widget.AppCompatEditText
+
+        android:layout_width="match_parent"
+        android:editable="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:text="选择时间"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/clear_time"
+        android:layout_height="wrap_content"
+        android:text="清除使用记录"/>
+
+</LinearLayout>

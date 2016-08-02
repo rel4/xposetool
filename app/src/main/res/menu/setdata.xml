@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/end_time"
+        android:orderInCategory="80"
+        android:title="EndTime"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_get_local"
+        android:orderInCategory="100"
+        android:title="本地获取"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="保存"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_get"
+        android:orderInCategory="90"
+        android:title="网络获取"
+        app:showAsAction="always" />
+</menu>
